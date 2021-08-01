@@ -1,5 +1,5 @@
 package com.training.inheritance;
-public class SavingsAccount extends Bank {
+public class SavingsAccount extends Account {
 
 	public SavingsAccount(double balance) {
 		super(balance);

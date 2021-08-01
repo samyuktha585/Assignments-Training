@@ -1,6 +1,6 @@
 package com.training.inheritance;
 
-public class CurrentAcount extends Bank {
+public class CurrentAcount extends Account {
 
 	public CurrentAcount(double balance) {
 		super(balance);

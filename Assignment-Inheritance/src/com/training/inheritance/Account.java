@@ -1,10 +1,10 @@
 package com.training.inheritance;
 
-public class Bank {
+public class Account {
 
 	double balance;
 
-	public Bank(double balance) {
+	public Account(double balance) {
 		super();
 		this.balance = balance;
 		System.out.println("before transaction " + balance);

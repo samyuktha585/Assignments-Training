@@ -11,7 +11,7 @@ public class MainATM {
 	String choice;
 	do {
 		choice=sc.nextLine();
-		Bank b;
+		Account b;
 		switch(choice) {
 			case "1":
 				b=new SavingsAccount(300);
